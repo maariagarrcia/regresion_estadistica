@@ -18,7 +18,6 @@ plt.plot(np.unique(datos['A']), np.poly1d(np.polyfit(datos['A'], datos['S'], 1))
 plt.show()
 
 
-
 X = datos[['A']]   
 y = datos['S']
 
